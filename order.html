@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="#" class="logo">Mina's Bakery</a>
+        </div>
+        <div id="user">
+            <div class="user-info">
+                <div class="user-avatar"></div> 
+          <p >user: minouchalog0@gmail.com</p>
+          </div>
+          <button  id="logout" class="logoutBtn"> Logout</button>
+          </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Order Your Pasterie</h2>
+            <form id="order">
+                <label for="cake-order">Our Cakes:</label>
+                <select id="cake-order" name="cake-order" >
+        
+                    <option value="0">Select pastries</option>
+                    <option value="50">CheeseCake</option>
+                    <option value="15">Croissants</option>
+                    <option value="100">Macaron</option>
+                    <option value="60">Baklawa</option>
+                </select>
+                <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+            <p id="totalprice">Total price: 0DA</p>
+            <a href="home.html" class="back-btn"> Back To home</a>
+            <input type="submit" value="Done">
+            </form>
+        
+        </div>
+    </main>
+
+<footer>
+    <div class="footer">
+      <p> Mina's Bakery*** &copy;All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="order.js"></script>
+<script src="authentification.js"></script>
+</body>
+</html>
+
+
+
+

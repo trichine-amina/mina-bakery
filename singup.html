@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="singup.css">
+</head>
+<body>
+    <main>
+        <div class="content">
+        <form id="singupform">
+            <h2>Sign Up</h2>
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="enter your password." required>
+            <label for="password1">Confirm your password:</label>
+            <input type="password" id="password1" name="password" placeholder="confirm your password." required>
+            <div class="errormsg">Error: Passwords do not match!</div>
+            <div class="loginbutt">
+            <button type="submit">Creat</button>
+           <a href="login.html" class="login">Already have an account?</a>
+            </div>
+        </form>
+    </div>
+    </main>
+   <script src="authentification.js"></script>
+</body>
+</html>

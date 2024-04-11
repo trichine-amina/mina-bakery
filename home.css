@@ -1,0 +1,245 @@
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img5.jpg);
+    box-sizing: border-box;
+   
+    
+  }
+  
+  .header {
+    background-color: rgb(247, 143, 207);
+    padding: 9px ;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: cursive;
+    color: #831f59;
+    
+  }
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+    color: #831f59;
+  }
+  section h2{
+    font-size: 2em;
+    color: #831f59;
+    font-family: cursive;
+    
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: rgb(192, 37, 130);
+    font-family: cursive;
+  }
+  
+  
+  nav {
+    display: flex;
+    
+    flex-direction: column;
+  }
+  #user {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .user-avatar
+  {
+    width: 48px;
+    height: 48px;
+    background-color: #000;
+    border-radius: 5px;
+    background-image: url(user.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .user-info
+  {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    display: flex;
+    gap: 4px;
+    font-weight: 600;
+  }
+  nav ul {
+    display: flex;
+    font-family: cursive;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
+  }
+  
+  nav li a:hover{
+    color:  #df1c6d;
+
+  }
+  nav a {
+    
+    text-decoration: none;
+    color: #000;
+  }
+  .hero {
+    
+   
+    padding: 100px 0;
+    text-align: center;
+    color: #831f59;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: courier;
+  }
+  
+  .hero p {
+    font-family: serif;
+    font-size: 1.4em;
+    line-height: 1.5;
+    
+  }
+  
+  .button {
+    background-color: #831f59;
+    color: #e9b1d2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: serif;
+    text-decoration-line: none;
+    transition: transform 0.5s ease-in-out;
+    display:inline-block;
+
+  }
+  section h2 {
+    margin-left: 10px;
+    text-decoration:underline ;
+  }
+  
+  
+  .about-us {
+    padding: 20px 0;
+    color: #831f59;
+    font-family: serif;
+  }
+  
+  
+  
+  .about-us p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-left: 20px;
+  }
+  
+ 
+  .container h2 {
+    font-size: 2em;
+  }
+  
+  
+  .cake-card {
+    max-width: 200px;
+    max-height: 400px;
+    text-align: center;
+  }
+  
+  .cake-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: cursive;
+  }
+  
+  
+  .popular-cakes {
+    padding: 80px 0;
+    color: #831f59;
+    font-family: serif;
+    
+  }
+  
+  .popular-cakes h2 {
+    font-size: 2em;
+    
+  }
+  .footer
+  {
+    text-align: center;
+    font-family: cursive;
+    color: #831f59;
+  }
+
+ button
+ {
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    font-family: cursive;
+    cursor: pointer;
+ }
+ .logoutBtn:hover{
+  color: #df1c6d;
+ }
+
+ div img{
+  
+width: 200px;
+height: 200px;
+object-position: center;
+object-fit: cover;
+
+  
+ }
+
+ .button:hover{
+  background-color: mediumvioletred;
+  transform: scale(1.2);
+ }
+ .popular img{
+  transition: transform 0.3s ease-in;
+ }
+ .popular img:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+ }
+ .order-button
+ {
+  
+  background-color: #831f59;
+    color: #e9b1d2;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: serif;
+    text-decoration-line: none;
+    display: inline-block;
+    margin-left: 200px;
+    transition: transform 0.5s ease-in-out;
+    
+ }
+ .order-button:hover{
+  transform: scale(1.05);
+  background-color: #df1c6d;
+  
+ }

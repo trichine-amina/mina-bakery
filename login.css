@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img2.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    flex: 1;
+    height: 100%;
+    
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    color: rgb(54, 29, 54);
+}
+main label
+ {
+    color: rgb(128, 5, 128);
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: monospace;
+    
+ }
+ main input
+ {
+    font-size: 13.5px;
+    font-family: monospace;
+    color: black;
+    padding: 10px 15px 11px 6px ;
+    border-radius: 5px;
+    border: 2px solid rgb(220, 98, 224);
+    margin-top: 2px;
+    
+ }
+.container{
+    text-align: center;
+    max-width: 400px;
+    margin: 100px auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    opacity: 2;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+
+}
+h2{
+    text-align: center;
+    color: rgb(128, 5, 128);
+    
+}
+
+form button
+{
+    padding: 5px 10px;
+    font-size: 13px;
+    font-family: monospace;
+    color:rgb(97, 3, 97);
+   background-color:rgb(220, 98, 224);
+   border-radius: 5px;
+   border-color: rgb(220, 98, 224);
+   box-shadow: 2px 2px 2px rgb(32, 32, 32) ;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: rgb(103, 42, 143);
+    color: white;
+    border-color: rgb(103, 42, 143); 
+   
+}
+form a:hover{
+ cursor: pointer;
+ color: rgb(219, 41, 210);
+}
+form a 
+{
+    font-family: serif;
+    display: flex;
+    flex-direction: column;
+   margin-top: 10px;
+   text-align: center;
+   color: rgb(125, 5, 236);
+   font-size:14px;
+   
+}
+.errormsg{
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 61, 114);
+    opacity: 0;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.errormsg.show{
+    opacity: 1;
+    display: block;
+}
+#loocked{
+   
+   font-family: serif ;
+   color: rgb(128, 39, 128);
+   font-weight: 600;
+   display: none;
+}
+.numbers {
+    color: rgb(241, 44, 44);
+}
