@@ -171,8 +171,11 @@ if(singupform)
 {
 window.location.assign("home.html");
 }
-    console.log("seting event");
+    
+else
+  {
    singupform.addEventListener("submit",registre);
+    }
 }
 else if (loginform)
 {
